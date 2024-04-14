@@ -1,0 +1,20 @@
+.title{
+    font-weight: bold;
+    text-align: left;
+    font-size: 2rem;
+    margin-top: 1rem;
+    text-transform: capitalize;
+
+}
+
+.main_container{
+    max-width: 600px;
+    width: 100%;
+}
+
+@media screen and (max-width:1290px){
+    .title{
+        font-size: 1.2rem;
+    }
+
+}

@@ -1,0 +1,53 @@
+.news_component{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    width: calc(100%);
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    width: 95%;
+    height: 90%;
+    margin: 20px auto;
+    overflow-y: auto ;
+    display: flex;
+    flex-direction: column;
+
+    /* justify-content: space-evenly; */
+}
+
+
+.navbar_options_container{
+    background-color: rgb(41, 41, 41);
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar_option{
+    margin: 10px 20px;
+}
+
+.navbar_option a{
+    text-decoration: none;
+    color: white;
+}
+
+.clickable{
+    cursor: pointer;
+}
+
+.navbar_option_selected{
+    font-weight: bolder;
+    
+}
+
+.navbar_option_unselected{
+    font-weight: 100;
+}
