@@ -14,7 +14,10 @@ export default function Home() {
   const [pageSize, setPageSize] = useState(15);
 // console.log(`https://newsapi.org/v2/top-headlines?country=us&apiKey=dc63282eb86f4136ac0ba3a95dd48b5e&page=${page}&pageSize=${pageSize}`)
   function fetchArticles(){
-    fetch(`https://newsapi.org/v2/top-headlines?country=us&apiKey=dc63282eb86f4136ac0ba3a95dd48b5e&page=${page}&pageSize=${pageSize}`).then((res) => {
+    fetch(`https://newsapi.org/v3/top-headlines?country=us&apiKey=dc63282eb86f4136ac0ba3a95dd48b5e&page=${page}&pageSize=${pageSize}`
+    
+
+    ).then((res) => {
       if (res.ok) {
         return res.json()
       }
